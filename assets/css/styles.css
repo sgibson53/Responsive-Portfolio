@@ -1,0 +1,200 @@
+@import url('./reset.css');
+
+html, body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    width: 100%;
+    height: 100%;
+    background: url('../images/ep_naturalwhite.png') center center;
+}
+
+body {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+#main {
+    width: 960px;
+    margin: auto auto -100px auto;
+    height: 100%;
+}
+
+#main:after {
+    content: "";
+    display: block;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+    border-bottom: 2px solid #cccccc;
+    background: #ffffff;
+}
+
+.title-name {
+    font-size: 20px;
+    display: inline-block;
+    width: 200px;
+    height: 70px;
+    margin-left: 100px;
+    line-height: 70px;
+    color: white;
+    text-align: center;
+    background-color: #4aaaa5
+}
+
+.nav {
+    overflow: auto;
+    float: right;
+    height: 70px;
+    margin-right: 150px;
+}
+.nav-list {
+
+}
+.nav-link {
+    float: right;
+    padding: 0 10px;
+    margin: 27px 0;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+.nav-link-text {
+    color: #777777;
+    text-decoration: none;
+}
+.nav-link:nth-child(2), .nav-link:nth-child(3) {
+    border-right: 1px solid grey;
+}
+
+section {
+    float: left;
+    width: 650px;
+    background: white;
+    margin: 30px 0 0 0;
+    overflow: hidden;
+}
+
+section > h2 {
+    font-size: 36px;
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    line-height: 100px;
+    border-bottom: 2px solid #666666;
+    color: #4aaaa5;
+}
+
+section > div > p {
+    line-height: 28px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.about-me-main-content {
+    padding: 15px;
+}
+
+#profile_picture {
+    width: 300px;
+    float: left;
+    padding-right: 20px;
+}
+
+.input-title {
+    width: 90%;
+    margin: 5px auto;
+    font-size: 16px;
+}
+
+.input-textbox {
+    width: 90%;
+    height: 24px;
+    line-height: 24px;
+    font-size: 20px;
+    margin: auto;
+    display: block;
+}
+
+.portfolio-img-container {
+    margin: 22px;
+}
+
+.portfolio-img {
+    width: 250px;
+    padding: 10px 25px;
+}
+
+#message-textarea {
+    height: auto;
+}
+
+#contact-submit {
+    margin: 15px 0 25px 32px;
+    width: 90px;
+    height: 35px;
+    background: #4aaaa5;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+.social-media {
+    float: left;
+}
+
+.social-media:nth-child(2), .social-media:first-child {
+    margin-right: 16.5px;
+}
+
+.social-media > img {
+    width: 70px;
+}
+
+aside {
+    float: right;
+    width: 270px;
+    background: #fff;
+    margin: 30px 0 0 0;
+    overflow: hidden;
+    height: 200px;
+}
+
+aside > h2 {
+    font-size: 26px;
+    height: 70px;
+    width: 90%;
+    margin: auto;
+    line-height: 70px;
+    border-bottom: 2px solid #666666;
+    color: #4aaaa5;
+}
+
+aside > ul {
+    overflow: auto;
+    width: 90%;
+    margin: 20px auto 0 auto;
+}
+
+#main:after, footer {
+    height: 100px;
+}
+
+footer {
+    width: 100%;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+}
+
+footer > h4 {
+    line-height: 100px;
+    width: 300px;;
+    margin: auto;
+    text-align: center;
+}
